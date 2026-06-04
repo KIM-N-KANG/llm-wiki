@@ -1,0 +1,15 @@
+# Obsidian 작업 상태 (기기마다 다름)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+# 캐시
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# raw 소스는 용량이 클 수 있으므로 필요 시 주석 해제
+# raw/assets/
