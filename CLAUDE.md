@@ -35,7 +35,6 @@ vault/
 ---
 title: "페이지 제목"
 type: entity | concept | source | answer
-team: frontend | backend | ai | cross
 tags: [entity/company, concept/pattern]
 sources: [소스파일명1.md, 소스파일명2.md]
 created: YYYY-MM-DD
@@ -43,11 +42,6 @@ updated: YYYY-MM-DD
 confidence: high | medium | low
 ---
 ```
-
-`team` 필드 규칙:
-- 특정 팀에만 해당하면 `frontend` / `backend` / `ai` 중 하나
-- 두 팀 이상에 걸치면 `cross`
-- 팀 구분이 모호하면 가장 관련 높은 팀으로 지정
 
 ### 엔티티 페이지 (wiki/entities/)
 
@@ -112,12 +106,6 @@ confidence: high | medium | low
 - `concept/research` — 연구 주제, 학술 개념
 - `concept/spec` — 기술 스펙, 설계 문서
 - `concept/issue` — 버그, 장애, 트러블슈팅 사례
-
-### 팀 도메인 태그
-
-- `team/frontend` — 프론트엔드 관련 (UI, 컴포넌트, 렌더링, 성능)
-- `team/backend` — 백엔드 관련 (API, DB, 서버, 인프라)
-- `team/ai` — AI 관련 (모델, 프롬프트, 파이프라인, 평가)
 
 ### 기술 스택 태그 (소스 분류 보조용)
 
