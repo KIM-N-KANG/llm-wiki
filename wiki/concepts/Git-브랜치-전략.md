@@ -37,9 +37,9 @@ confidence: high
 
 ```
 dev
- ├── feat/KNK-12-google-login-button → dev (Squash and Merge)
+ ├── feat/KNK-12-add-google-login-button-ui → dev (Squash and Merge)
  └── release/v1.0.0
-      ├── fix/KNK-20-login-redirect → release (Squash and Merge)
+      ├── fix/KNK-20-fix-login-redirect-error → release (Squash and Merge)
       ├── release → main (Merge Commit)
       └── release → dev (Rebase and Merge)
 ```
