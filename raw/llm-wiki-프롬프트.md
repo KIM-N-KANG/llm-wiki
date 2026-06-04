@@ -88,7 +88,6 @@ vault/
 ---
 title: "페이지 제목"
 type: entity | concept | source | answer
-team: frontend | backend | ai | cross
 tags: [entity/company, concept/pattern]
 sources: [소스파일명1.md, 소스파일명2.md]
 created: YYYY-MM-DD
@@ -96,11 +95,6 @@ updated: YYYY-MM-DD
 confidence: high | medium | low
 ---
 ​```
-
-`team` 필드 규칙:
-- 특정 팀에만 해당하면 `frontend` / `backend` / `ai` 중 하나
-- 두 팀 이상에 걸치면 `cross`
-- 팀 구분이 모호하면 가장 관련 높은 팀으로 지정
 
 ### 엔티티 페이지 (wiki/entities/)
 
@@ -549,7 +543,31 @@ CLAUDE.md의 /file-answer 커맨드 정의에 따라 가장 최근 /query 결과
 
 ---
 
-### 8단계 — Obsidian Git 플러그인 설정
+### 8단계 — .gitignore 생성
+
+`.gitignore`를 아래 내용으로 생성합니다:
+
+```
+# Obsidian 작업 상태 (기기마다 다름)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+# 캐시
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# raw 소스는 용량이 클 수 있으므로 필요 시 주석 해제
+# raw/assets/
+```
+
+---
+
+### 9단계 — Obsidian Git 플러그인 설정
 
 `.obsidian/plugins/obsidian-git/data.json`을 아래 내용으로 생성합니다:
 
@@ -605,17 +623,18 @@ CLAUDE.md의 /file-answer 커맨드 정의에 따라 가장 최근 /query 결과
 
 ---
 
-### 9단계 — 완료 보고
+### 10단계 — 완료 보고
 
 모든 파일 생성 후 다음을 출력합니다:
 
 ```
 LLM Wiki 환경 셋업 완료
 
-생성된 파일:
+[자동 생성된 파일]
 - CLAUDE.md
 - index.md
 - log.md
+- .gitignore
 - wiki/overview.md
 - wiki/entities/.gitkeep
 - wiki/concepts/.gitkeep
@@ -628,10 +647,21 @@ LLM Wiki 환경 셋업 완료
 - .claude/commands/file-answer.md
 - .obsidian/plugins/obsidian-git/data.json
 
-다음 단계:
-1. Obsidian 앱에서 커뮤니티 플러그인 → Obsidian Git 설치 (자동 커밋·push·pull 활성화)
-2. raw/ 폴더에 정리할 소스 파일(md, txt, pdf 등)을 넣는다
-3. /ingest [파일명] 으로 위키 페이지를 자동 생성한다
-4. /query [질문] 으로 위키를 검색한다
-5. /lint 로 위키 품질을 점검한다
+[수동 작업 필요 — 아래 항목은 직접 설치·설정해야 합니다]
+
+1. Git 저장소 초기화 및 원격 연결
+   - git init
+   - git remote add origin [저장소 URL]
+   - git push -u origin main
+
+2. Obsidian 커뮤니티 플러그인 설치 (Obsidian 앱 → 설정 → 커뮤니티 플러그인)
+   - Obsidian Git  : 자동 커밋·push·pull (data.json 설정이 자동 적용됨)
+   - Dataview      : 위키 페이지 동적 쿼리·테이블 생성
+   - Claudian      : Obsidian 내에서 Claude Code 직접 실행
+
+3. Claude Code에서 위키 사용 시작
+   - raw/ 폴더에 소스 파일(md, txt 등)을 넣는다
+   - /ingest [파일명] 으로 위키 페이지를 자동 생성한다
+   - /query [질문] 으로 위키를 검색한다
+   - /lint 로 위키 품질을 점검한다
 ```
