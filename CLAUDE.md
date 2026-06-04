@@ -36,7 +36,7 @@ vault/
 title: "페이지 제목"
 type: entity | concept | source | answer
 team: frontend | backend | ai | cross
-tags: [태그1, 태그2]
+tags: [entity/company, concept/pattern]
 sources: [소스파일명1.md, 소스파일명2.md]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -99,36 +99,36 @@ confidence: high | medium | low
 
 ### 엔티티 태그
 
-- `#entity/company` — 기업, 스타트업, 조직
-- `#entity/person` — 인물, 연구자, 경영자
-- `#entity/technology` — 기술, 플랫폼, 인프라
-- `#entity/product` — 제품, 서비스, 솔루션
+- `entity/company` — 기업, 스타트업, 조직
+- `entity/person` — 인물, 연구자, 경영자
+- `entity/technology` — 기술, 플랫폼, 인프라
+- `entity/product` — 제품, 서비스, 솔루션
 
 ### 컨셉 태그
 
-- `#concept/framework` — 프레임워크, 방법론
-- `#concept/pattern` — 패턴, 아키텍처
-- `#concept/trend` — 트렌드, 시장 동향
-- `#concept/research` — 연구 주제, 학술 개념
-- `#concept/spec` — 기술 스펙, 설계 문서
-- `#concept/issue` — 버그, 장애, 트러블슈팅 사례
+- `concept/framework` — 프레임워크, 방법론
+- `concept/pattern` — 패턴, 아키텍처
+- `concept/trend` — 트렌드, 시장 동향
+- `concept/research` — 연구 주제, 학술 개념
+- `concept/spec` — 기술 스펙, 설계 문서
+- `concept/issue` — 버그, 장애, 트러블슈팅 사례
 
 ### 팀 도메인 태그
 
-- `#team/frontend` — 프론트엔드 관련 (UI, 컴포넌트, 렌더링, 성능)
-- `#team/backend` — 백엔드 관련 (API, DB, 서버, 인프라)
-- `#team/ai` — AI 관련 (모델, 프롬프트, 파이프라인, 평가)
+- `team/frontend` — 프론트엔드 관련 (UI, 컴포넌트, 렌더링, 성능)
+- `team/backend` — 백엔드 관련 (API, DB, 서버, 인프라)
+- `team/ai` — AI 관련 (모델, 프롬프트, 파이프라인, 평가)
 
 ### 기술 스택 태그 (소스 분류 보조용)
 
 프론트엔드:
-- `#stack/react` `#stack/nextjs` `#stack/typescript` `#stack/css`
+- `stack/react` `stack/nextjs` `stack/typescript` `stack/css`
 
 백엔드:
-- `#stack/node` `#stack/python` `#stack/database` `#stack/api` `#stack/infra`
+- `stack/node` `stack/python` `stack/database` `stack/api` `stack/infra`
 
 AI:
-- `#stack/llm` `#stack/rag` `#stack/prompt` `#stack/vector-db` `#stack/finetuning`
+- `stack/llm` `stack/rag` `stack/prompt` `stack/vector-db` `stack/finetuning`
 
 ---
 
@@ -267,7 +267,7 @@ AI:
 ## 컨셉 (N)
 | 페이지 | 태그 | 요약 | 소스 수 |
 |--------|------|------|---------|
-| [[컨셉명]] | #concept/framework | 한줄 설명 | 5 |
+| [[컨셉명]] | concept/framework | 한줄 설명 | 5 |
 
 ## 소스 요약 (N)
 | 페이지 | 날짜 | 한줄 요약 |

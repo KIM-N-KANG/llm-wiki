@@ -2,7 +2,7 @@
 title: "팀 Git 컨벤션"
 type: source
 team: cross
-tags: [#concept/pattern, #stack/git]
+tags: [concept/pattern, stack/git]
 sources: [팀-Git-컨벤션.md]
 created: 2026-06-04
 updated: 2026-06-04 (브랜치 이름 예시 수정)
