@@ -1,7 +1,6 @@
 ---
 title: "Git 브랜치 전략"
 type: concept
-team: cross
 tags: [concept/pattern, stack/git]
 sources: [팀-Git-컨벤션.md]
 created: 2026-06-04

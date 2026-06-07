@@ -35,6 +35,9 @@
 - [[concepts/AI-Slop]] — Harness 부재 시 발생하는 품질 저하 현상
 - [[concepts/Git-브랜치-전략]] — main/dev 기반 브랜치 운영 전략
 - [[concepts/커밋-메시지-컨벤션]] — Jira 이슈 번호 연동 커밋 메시지 형식
+- [[concepts/브랜치-이름-규칙]] — 태그/KNK-이슈번호 형식의 브랜치 네이밍 규칙
+- [[concepts/PR-규칙]] — PR 제목·본문·태그 작성 기준
+- [[concepts/머지-전략]] — 브랜치 목적별 Squash/Merge Commit/Rebase 적용 규칙
 
 ## 최근 인사이트
 
