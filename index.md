@@ -1,6 +1,6 @@
 # Wiki Index
 
-> 마지막 갱신: 2026-06-09 | 총 25페이지
+> 마지막 갱신: 2026-06-10 | 총 26페이지
 > 운영 가이드: [[CLAUDE]] | 위키 현황: [[wiki/overview]]
 
 ## 엔티티 (7)
@@ -13,9 +13,9 @@
 | [[entities/LangChain]] | technology | 하네스 변경만으로 TerminalBench 52.8→66.5% (+14%p) | 1 |
 | [[entities/Claude-Code]] | product | Anthropic AI 코딩 도구, Harness 구현 주요 실행 환경 | 1 |
 | [[entities/이호연]] | person | Team Attention, Harness Engineering 교육 자료 발표자 | 1 |
-| [[entities/마냑]] | product | AI 인터랙티브 스토리 서비스, 3단계 제작 모드·채팅 플레이 | 1 |
+| [[entities/마냑]] | product | AI 인터랙티브 스토리 서비스, 단계별 제작 모드·채팅 플레이·운영 KPI | 1 |
 
-## 컨셉 (15)
+## 컨셉 (16)
 
 | 페이지 | 태그 | 요약 | 소스 수 |
 |--------|------|------|---------|
@@ -33,7 +33,8 @@
 | [[concepts/머지-전략]] | concept/pattern | 브랜치 목적별 Squash/Merge Commit/Rebase 적용 규칙 | 1 |
 | [[concepts/인터랙티브-스토리텔링]] | concept/trend | AI와 사용자가 협력해 이야기를 만드는 콘텐츠 형태 | 1 |
 | [[concepts/스토리-제작-모드]] | concept/pattern | 숙련도별 간편/일반/전문가 3단계 스토리 제작 방식 | 1 |
-| [[concepts/크레딧-시스템]] | concept/pattern | LLM 비용을 가상 화폐로 추상화하는 AI 서비스 과금 모델 | 1 |
+| [[concepts/크레딧-시스템]] | concept/pattern | AI 서비스 이용량을 크레딧 단위로 관리하는 운영 모델 | 1 |
+| [[concepts/AI-인터랙티브-스토리-KPI]] | concept/framework | AI 인터랙티브 스토리 서비스의 초기 성장·참여·완료율 지표 | 1 |
 
 ## 소스 요약 (3)
 
@@ -41,7 +42,7 @@
 |--------|------|---------|
 | [[sources/팀-Git-컨벤션]] | 2026-06-04 | main/dev 기반 브랜치 전략과 Jira 연동 커밋·PR 컨벤션 |
 | [[sources/당근-하네스-교육-자료]] | 2026-06-07 | AI 작업 환경(Harness) 설계를 구조·맥락·계획·실행·검증·개선 6개 축으로 체계화 |
-| [[sources/기획-정리]] | 2026-06-09 | 3단계 제작 모드와 채팅 플레이를 결합한 AI 인터랙티브 스토리 서비스 마냑 기획 정리 |
+| [[sources/기획-정리]] | 2026-06-10 | 단계별 제작 모드와 채팅 플레이, 초기 KPI를 포함한 AI 인터랙티브 스토리 서비스 마냑 기획 정리 |
 
 ## 답변 (0)
 
