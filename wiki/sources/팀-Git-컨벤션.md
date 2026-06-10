@@ -10,7 +10,7 @@ confidence: high
 
 ## 원본 링크
 
-[[raw/팀-Git-컨벤션]]
+[[Git-컨벤션]]
 
 ## 한줄 요약
 
