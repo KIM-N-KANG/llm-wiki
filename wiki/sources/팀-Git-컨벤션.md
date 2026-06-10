@@ -2,15 +2,15 @@
 title: "팀 Git 컨벤션"
 type: source
 tags: [concept/pattern, stack/git]
-sources: [팀-Git-컨벤션.md]
+sources: [Git-컨벤션.md]
 created: 2026-06-04
-updated: 2026-06-04 (브랜치 이름 예시 수정)
+updated: 2026-06-11
 confidence: high
 ---
 
 ## 원본 링크
 
-[[Git-컨벤션]]
+[[raw/Git-컨벤션]]
 
 ## 한줄 요약
 

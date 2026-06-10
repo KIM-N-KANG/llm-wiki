@@ -2,9 +2,9 @@
 title: "AI 인터랙티브 스토리 KPI"
 type: concept
 tags: [concept/framework, stack/llm]
-sources: [기획-정리.md]
+sources: [마냑-기획-정리.md]
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-11
 confidence: high
 ---
 
