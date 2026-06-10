@@ -4,10 +4,6 @@
 
 우리 팀은 `main`과 `dev`를 기준 브랜치로 사용합니다. 기본 브랜치는 `dev`입니다.
 
-![image.png](image.png)
-
-![image.png](image%201.png)
-
 ### 브랜치 역할
 
 | 브랜치 | 역할 |
