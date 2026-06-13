@@ -4,7 +4,7 @@ type: concept
 tags: [concept/pattern, stack/git]
 sources: [Git-컨벤션.md]
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-06-13
 confidence: high
 ---
 

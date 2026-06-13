@@ -4,7 +4,7 @@ type: source
 tags: [concept/pattern, stack/git]
 sources: [Git-컨벤션.md]
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-06-13
 confidence: high
 ---
 
@@ -20,7 +20,7 @@ confidence: high
 
 - 기준 브랜치는 `main`(프로덕션)과 `dev`(통합) 두 개이며 기본 작업 브랜치는 `dev`
 - 작업 브랜치 이름 형식: `{태그}/{KNK-이슈번호}-{브랜치_제목}`
-- 커밋 메시지 형식: `[KNK-{이슈번호}] {태그}: {제목}`
+- 커밋 메시지 형식: `[KNK-{이슈번호}] {태그}: {제목}`이며, 제목과 내용은 한국어로 작성하고 제목과 내용 사이에는 한 줄을 띄움
 - 기능 브랜치 → dev: **Squash and Merge** (커밋 정리 목적)
 - release → main: **Merge Commit** (배포 이력 명확화 목적)
 - release → dev: **Rebase and Merge** (불필요한 머지 커밋 방지)
