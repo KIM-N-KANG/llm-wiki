@@ -2,7 +2,7 @@
 title: "PR 규칙"
 type: concept
 tags: [concept/pattern, stack/git]
-sources: [Git-컨벤션.md]
+sources: [Git-컨벤션.md, Pull-Request-템플릿.md]
 created: 2026-06-04
 updated: 2026-06-13
 confidence: high
@@ -23,6 +23,8 @@ Pull Request 제목 형식, 본문 작성 기준, 머지 방식을 규정한 팀
 - 작업 내용 구체적으로 기술
 - UI 작업 포함 시 화면 캡처 첨부
 - 테스트 수행 시 테스트 방법과 결과 함께 작성
+- 작업 유형별 템플릿에 따라 관련 이슈, 변경 사항, 화면 또는 영역별 검증 항목 작성
+- 실제 secret 또는 로컬 전용 파일 포함 여부와 문서 수정 필요 여부 확인
 
 **태그 목록:**
 
@@ -51,6 +53,8 @@ Pull Request 제목 형식, 본문 작성 기준, 머지 방식을 규정한 팀
 - [[브랜치-이름-규칙]]
 - [[머지-전략]]
 - [[Git-브랜치-전략]]
+- [[PR-템플릿]]
+- [[PR-검증-체크리스트]]
 
 ## 관련 엔티티
 
@@ -59,3 +63,4 @@ Pull Request 제목 형식, 본문 작성 기준, 머지 방식을 규정한 팀
 ## 소스
 
 - [[sources/팀-Git-컨벤션]]
+- [[sources/Pull-Request-템플릿]]
